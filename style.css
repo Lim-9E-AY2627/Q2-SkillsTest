@@ -1,0 +1,13 @@
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.131), rgba(35, 2, 2, 0.222)),
+  url("https://obmontessori.orangeapps.ph/landing/obmontessori/images/Greenhills%20Facade.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  color: #152a3e;
+}

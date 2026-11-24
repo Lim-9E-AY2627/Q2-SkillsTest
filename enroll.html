@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OBMC Student Enrolment Form Page</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <header class="header">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+          <span class="navbar-toggler-icon"></span>
+    </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item"><a class="nav-link" href="javascript:void(0)">Enroll now</a></li>
+          </ul>
+          <form class="d-flex">
+        <button class="btn btn-primary m-1" type="button">Get Started</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+           </header>
+
+  <div class="hero hero-image py-5">
+    <div class="hero-content hero-text mb-4 px-3">
+      <h1 class="fw-bold">OBMC Student Enrollment Form</h1>
+      <p>Fill out the form below to eroll for the upcoming school year.</p>
+    </div>
+
+    <section class="contact container">
+      <div class="row g-4 align-items-start">
+        
+        <!-- Send message -->
+        <div class="col-lg-8 mx-auto">
+          <div class="card p-4">
+            <h4 class="text-primary mb-3">Student information</h4>
+            <form>
+          <div class="row mb-3">
+              <div class="col">
+                  <input type="text" class="form-control" placeholder="First name">
+                </div>
+                <div class="col">   
+       <input type="text" class="form-control" placeholder="Last name">
+                </div>
+
+
+              </div>
+
+              <div class="row">
+
+              <div class="col">
+                  <input type="text" class="form-control" placeholder="dd/mm/yyyy">
+                </div>
+            <div class="mb-3-lg-8">
+            <select class="form-select" aria-label="Subject select">
+            <option selected disabled>Gender . . . </option>
+            <option value="option1">Male</option>
+            <option value="option2">Female</option>
+            </select>
+            </div>
+
+                 <div class="mb-3-lg-8">
+            <select class="form-select" aria-label="Subject select">
+            <option selected disabled>Grade level . . .</option>
+            <option value="option1">1</option>
+            <option value="option2">2</option>
+            <option value="option1">3</option>
+            <option value="option2">4</option>
+            <option value="option1">5</option>
+            <option value="option2">6</option>
+            <option value="option1">7</option>
+            <option value="option2">8</option>
+            <option value="option1">9</option>
+            <option value="option2">10</option>
+            <option value="option1">11</option>
+            <option value="option2">12</option>
+            </select>
+            </div>
+
+            </div>
+              <h4 class="text-primary mb-3">Contact details</h4>
+
+              <div class="mb-3">
+             <input type="email" class="form-control" placeholder="Email address">
+              </div>
+
+             <h4 class="text-primary mb-3">Other information</h4>
+
+            <legend>Mode of learning</legend>
+
+            <div class="form-check">
+            <label class="form-check-label"><input class="form-check-input" type="radio" name="color" value="online"> online</label>
+            </div>
+
+            <div class="form-check">
+            <label class="form-check-label"><input class="form-check-input" type="radio" name="color" value="face-to-face"> face-to-face</label>
+            </div>
+
+            <div class="form-check">
+                <label class="form-check-label"><input class="form-check-input" type="checkbox" name="feature" value="laces"> I can confirm that the information provided is true and complete.</label>
+            </div>
+
+
+          <button type="submit" class="btn btn-primary w-100">Submit Enrollment</button>
+            </form>
+          </div>
+        </div>
+
+
+  <!-- footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p class="mb-0">© 2026 | Justine Lim | 9-Emerald</p>
+  </footer>
+
+</body>
+</html>
